@@ -15,5 +15,6 @@ def load_imgs_asarray(paths, grayscale=False, target_size=None,
         img = load_img(path, grayscale, target_size)
         array = img_to_array(img, dim_ordering)
         arrays.append(array)
+        print('.', end='')  
     
     return numpy.asarray(arrays)
