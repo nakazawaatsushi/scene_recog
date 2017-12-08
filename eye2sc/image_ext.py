@@ -7,8 +7,8 @@ def list_pictures_in_multidir(paths):
     for path in paths:
         fpaths += list_pictures(path)
     
-    #fpaths = fpaths.sort()
-    print(fpaths)
+    fpaths = fpaths.sort()
+    # print(fpaths)
        
     return fpaths
 
