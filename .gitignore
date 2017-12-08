@@ -1,1 +1,3 @@
 *.h5
+*.ipynb
+.ipynb_checkpoints/scene_recog_cnn_pca-checkpoint.ipynb
