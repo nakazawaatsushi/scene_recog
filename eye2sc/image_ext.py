@@ -6,6 +6,10 @@ def list_pictures_in_multidir(paths):
     fpaths = []
     for path in paths:
         fpaths += list_pictures(path)
+    
+    #fpaths = fpaths.sort()
+    print(fpaths)
+       
     return fpaths
 
 def load_imgs_asarray(paths, grayscale=False, target_size=None,
